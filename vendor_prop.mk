@@ -215,6 +215,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.radio.use.old.mnc.format=true
 
+# Rendering
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.enable.sglscale=1 \
+    debug.egl.hw=1 \
+    debug.sf.disable_hwc=0 \
+    debug.sf.recomputecrop=0 \
+    persist.hwc.ptor.enable=true \
+    debug.sf.gpu_comp_tiling=1
+
 # Time services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
