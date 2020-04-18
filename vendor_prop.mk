@@ -208,6 +208,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.iwlan_operation_mode=legacy \
     persist.vendor.data.iwlan.enable=true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.radio.use.old.mnc.format=true
+
 # Time services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
